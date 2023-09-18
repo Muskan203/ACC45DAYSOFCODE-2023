@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int T;
+    std::cin >> T; 
+
+    while (T--) {
+        int X;
+        std::cin >> X; 
+        
+        if (X >= 2000) {
+            std::cout << "YES\n"; 
+        } else {
+            std::cout << "NO\n"; 
+        }
+    }
+
+    return 0;
+}
