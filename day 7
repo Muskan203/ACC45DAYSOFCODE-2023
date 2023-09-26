@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    int T;
+    std::cin >> T;
+
+    while (T--) {
+        int X, Y;
+        std::cin >> X >> Y;
+
+        int maxPeople = X / (2 * Y); // Calculate the maximum number of people that can take a bath
+        std::cout << maxPeople << std::endl;
+    }
+
+    return 0;
+}
